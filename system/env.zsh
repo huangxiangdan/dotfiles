@@ -1,1 +1,2 @@
-export EDITOR='atom'
+export VISUAL='subl -w'
+export EDITOR='subl -w'

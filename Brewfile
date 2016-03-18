@@ -1,6 +1,9 @@
 cask_args appdir: '/Applications'
 
+brew 'cask/room/cask/brew-cask'
+
 tap 'caskroom/cask'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 brew 'zsh'
@@ -35,45 +38,54 @@ brew 'git'
 brew 'mackup'
 brew 'tree'
 
-cask 'beyond-compare'
-cask 'charles'
-cask 'caffeine'
-cask 'adium'
-cask 'sublime-text'
-cask "iterm2"
+#hack 工具
+brew 'apktool'
+brew 'dex2jar'
+
+#常用系统软件
+cask 'dropbox'
+cask 'sogouinput'
 cask 'google-chrome'
-cask 'handbrake'
-cask 'seashore'
-cask 'transmission'
-cask 'androidtool'
-cask 'android-file-transfer'
-cask 'android-studio'
 cask 'thunder'
 cask 'qq'
-cask 'virtualbox'
-cask 'vagrant'
-cask 'the-unarchiver'
 cask 'dash'
 cask 'divvy'
-cask 'disk-inventory-x'
-cask 'github'
 cask 'neteasemusic'
-cask 'sketch'
-cask 'qq'
 cask 'omnidisksweeper'
-cask 'mou'
 cask 'mplayerx'
-cask 'diffmerge'
 cask 'evernote'
 cask 'foxmail'
-cask 'genymotion'
-cask 'imageoptim'
-cask 'jd-gui'
-cask 'wireshark'
-cask 'easysimbl'
 cask 'youdao'
-#instant-translate
-#pomodoro time
-#miwifi
+cask 'adium'
+cask 'easysimbl'
+cask 'the-unarchiver'
+cask 'disk-inventory-x'
+cask 'caffeine'         #防止自动休眠
+#cask 'handbrake'  #视频格式转换
 
+#工程师工具
+cask 'sublime-text3'
+cask "iterm2"
+cask 'github-desktop'
+cask 'mou'
+cask 'beyond-compare'
+cask 'diffmerge'
+cask 'vagrant'
+cask 'imageoptim' #压缩图片尺寸
+cask 'sketch'     #看线框图或设计图
+
+#android工程师工具
+cask 'android-studio'
+cask 'android-file-transfer'
+cask 'virtualbox'
+cask 'genymotion'
+
+#hack工具
+cask 'charles'
+cask 'wireshark'
+cask 'jd-gui'
+
+#instant-translate, app from file cloud, move it to applications
+#pomodoro time, pomodoro-time-focus-timer from mac app store
+#miwifi
 

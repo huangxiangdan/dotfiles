@@ -1,9 +1,5 @@
 cask_args appdir: '/Applications'
 
-brew 'cask/room/cask/brew-cask'
-
-tap 'caskroom/cask'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 brew 'zsh'

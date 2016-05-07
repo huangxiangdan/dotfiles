@@ -6,7 +6,7 @@
 # Dropbox folder.
 [storage]
 engine = file_system
-path = ~/360云盘
+path = 360云盘
 
 # If you choose the "google_drive" storage engine instead, Mackup will figure
 # out where your Google Drive is and store your configuration files in it.

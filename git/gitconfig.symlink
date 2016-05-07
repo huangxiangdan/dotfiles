@@ -6,6 +6,12 @@
 [alias]
         co = checkout
         st = status
+        st = status
+        br = branch
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        oneline = log --pretty=oneline --since='2 days ago'
+        onelog = log -p -1
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
@@ -15,6 +21,8 @@
         status = auto
         branch = auto
         ui = true
+[github]
+        user = huangxiangdan
 [core]
         excludesfile = ~/.gitignore
         editor = vim
